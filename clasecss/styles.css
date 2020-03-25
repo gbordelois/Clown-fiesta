@@ -1,0 +1,29 @@
+body {
+        
+}
+
+article#post {
+    width: 600px;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+h1 {
+    font-size: 30px;
+}
+
+p{
+  font: 1.2em;  
+  line-height: 1.6em;
+  color: grey;
+  font-family: sans-serif;
+  margin-bottom: 2.6em;
+}
+
+span, time {
+    font-family: sans-serif; 
+     margin-right: 1em; 
+     font-weight: 600;
+     color: grey;
+}
