@@ -2,17 +2,30 @@ body {
         
 }
 
-article#post {
+article {
     width: 600px;
     font-size: 20px;
-    margin: auto;
-
+    margin: 2em auto;
+    border: 1px;
+    border-color: red;
+    border-style: solid; 
+    padding: 1.8em 2em;
+    box-shadow: 0 10px 30px -15px rgba(0, 0, 0,11);
+    
 }
-
-h1 {
-    font-size: 30px;
+h1.page-title{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rosybrown;
 }
-
+article h1 {
+    font-size: 2.2em;
+    font-family: serif;
+}
+.img-content {
+    width: 100%;
+    Display: block;
+}
 p{
   font: 1.2em;  
   line-height: 1.6em;
